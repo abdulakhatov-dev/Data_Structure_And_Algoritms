@@ -1,5 +1,7 @@
 // Which one is "better" implementation?
 
+// It helps you write better code and becomes important as your inputs get bigger(EG User / Posts for an app)/
+
 // #1
 const sumUpTo = n => {
   let total = 0;

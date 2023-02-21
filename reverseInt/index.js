@@ -7,7 +7,9 @@
 //   reverseInt(-13) === -31
 //   reverseInt(-100) === -1
 
-function reverseInt(n) {}
+function reverseInt(n) {
+  return n < 0 ? -1 * parseInt(n.toString().split('').reverse().join('')) : parseInt(n.toString().split('').reverse().join(''))
+}
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
 // \__   __/(  ____ \(  ____ \\__   __/  (  ____ \(  ___  )(  ____ \(  ____ \(  ____ \
